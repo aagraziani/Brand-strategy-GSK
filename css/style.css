@@ -1,0 +1,284 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #585a61;
+}
+
+a {
+    color: #359998;
+}
+
+a:hover {
+    color: #7b94c9;
+    text-decoration: none;
+}
+
+button>a:hover {
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2, h3 {
+    color: rgb(53,153,128);
+}
+
+/* Back to top */
+
+.scroll {
+    position: fixed;
+    top:94%;
+    right: 0%;
+    width: 40px;
+    height: 80px;
+    display: block;
+    font-size: 35px;
+    text-decoration: none;
+    z-index: 1000;
+    }
+      
+.scroll .top {
+    top: calc(50% - 80px);
+      }
+
+
+/* Section general */
+
+section {
+   margin: 15px 0; 
+}
+
+section h1 {
+    font-weight: 700;
+}
+
+section h2 {
+    font-weight: 600;
+}
+
+section h3 {
+    font-weight: 600;
+}
+
+
+
+/* Header */
+
+#header nav a.navbar-brand {
+    width: 65%;
+}
+
+
+#header nav div ul li a {
+    font-size: 15px;
+}
+
+div ul li {
+    text-align: right;
+}
+
+@media (min-width:426px) {
+    #header nav a.navbar-brand {
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px){
+    #header nav a.navbar-brand {
+        width: 35%;
+    }
+
+    header div ul {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
+
+/* Hero section */
+
+section div.pandemia-salud h1 {
+    font-size: 31px;
+    margin-bottom: 15px;
+}
+
+section div.texto {
+    margin-top: 7px;
+}
+
+@media(min-width: 426px) {
+    section div.pandemia-salud {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section div.pandemia-salud h1 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 769px) {
+    section div.pandemia-salud h1 {
+        font-size: 50px;
+    }
+}
+
+/* Details section */
+
+section.details {
+    margin-top: 30px;
+}
+
+section div.prevencion h3 {
+    margin-top: 15px;
+}
+
+section div.info img {
+    margin: 30px 0;
+}
+
+@media (min-width: 426px){
+
+    section.details {
+        margin-bottom: 15px;
+    }
+
+    section div.prevencion h3 {
+        margin-top: 0;
+    }
+        
+}
+
+@media (min-width: 769px) {
+    section.details {
+        margin-bottom: 55px;
+    }
+}
+
+
+/* Sintomas section */
+
+section div.sintomas {
+    margin-bottom: 15px;
+}
+
+section div.sintomas h3 {
+    margin-top: 15px;
+}
+
+@media (min-width: 426px){
+
+    section div.sintomas h3 {
+        margin-top: 0;
+    }
+        
+}
+
+
+/* Recomendaciones */
+
+section div.section-title h2 {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+section div.card div.card-header {
+    background-color: rgba(53,153,128,1) ;
+}
+
+section div.accordion div.card div.flecha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Section Boton Vacunas */
+
+section.contact button.btn-success {
+    background-color: white;
+    border: 1.5px solid rgb(53,153,128);
+    margin: 20px 0;
+}
+
+section.contact button.btn a {
+    color: rgb(53,153,128);
+    font-weight: 700;
+}
+
+/* Footer */
+
+#footer {
+    background: #fff;
+    padding: 15px 0;    
+    font-size: 14px;
+  }
+
+footer div.footer-top {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-top: 1px solid darkgrey;
+      padding-top: 20px;
+  }
+
+footer div.footer-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+footer div.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 0;
+}
+
+footer div.social-links a {
+    font-size: 30px;
+    padding: 0 10px;
+    color: rgb(53,153,128);
+}
+
+footer div.footer-direccion {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div.footer-direccion h3 {
+    font-weight: 700;
+}
+
+footer div.footer-abajo {
+    border-top: 1px solid darkgrey;
+}
+
+footer div.copyright {
+    margin: 0px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+@media (min-width: 426px) {
+    footer div.footer-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
